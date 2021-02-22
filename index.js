@@ -10,11 +10,13 @@ const bot = new TelegramBot(BOT_KEY, { polling: true });
 const welcomeMsg = `
 Welcome to BankDefi telegram group!
 The offical DApp site is: https://bankdefi.finance/
+The offical medium link is: https://bankdefi.medium.com/
 Please raise security awareness and guard against online fraud.
 Admins will never first DM with you!
 ------------
 欢迎来到BankDefi官方telegram群！
 官方DApp应用网址是：https://bankdefi.finance/
+官方Medium网址：https://bankdefi.medium.com/
 请提高安全意识，警惕网络诈骗！
 请注意，管理员不会主动与任何人发起私聊！
 `

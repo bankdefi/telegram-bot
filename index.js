@@ -3,9 +3,9 @@ require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 
 const BOT_KEY = process.env.BOT_KEY;
-const CHAT_ID = process.env.CHAT_ID;
+// const CHAT_ID = process.env.CHAT_ID;
 
-const bot = new TelegramBot(token, { polling: true });
+const bot = new TelegramBot(BOT_KEY, { polling: true });
 
 const welcomeMsg = `
 Welcome to BankDefi telegram group!
